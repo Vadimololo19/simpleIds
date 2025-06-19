@@ -10,9 +10,9 @@ from ids.detectors.icmp_flood import detect_icmp_flood
 from ids.alerts.alert_manager import handler_alert
 
 # Конфигурация бота и канала
-BOT_TOKEN = "8022646991:AAG4CJXXrdBDSUm661ppGyCV81cTp791aVU"
-CHANNEL_ID = -1002496841826
-TOPIC_ID = 4272  # ID топика
+BOT_TOKEN = TOKEN
+CHANNEL_ID = CHAT
+TOPIC_ID = ID  # ID топика
 
 # Глобальный event loop для отдельного потока
 loop = None
