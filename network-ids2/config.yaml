@@ -1,0 +1,9 @@
+interface: ztnfaa5owr
+log_file: alerts.log
+thresholds:
+  syn_scan:
+    count: 5
+    window_seconds: 10
+  icmp_flood:
+    count: 20
+    window_seconds: 5
